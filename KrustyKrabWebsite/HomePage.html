@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <link rel="stylesheet" href="KrustyKrab.css">
     <title>Home - Krusty Krab</title>
 </head>
@@ -15,17 +16,19 @@
 
     <!-- Main Content -->
     <div class="main-content">
-        <h1>Welcome to the Krusty Krab!</h1>
-        <p>Make your reservation using the form below:</p>
-        <iframe src="https://forms.gle/Nh2xiCg4KUaHsMPP7" 
-                width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">
-            Loading…
-        </iframe>
+        <h1 id="Main-HomePageHeader">Welcome to the Krusty Krab!</h1>
+        <img id="RestaurantImage" src="images\RestaurantImage.jpg">
 
         <h2>Current Reservations:</h2>
         <div id="reservations">
             <p>Loading reservations...</p>
         </div>
+
+        <p>Make your reservation using the form below:</p>
+        <iframe src="https://forms.gle/Nh2xiCg4KUaHsMPP7" 
+                width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">
+            Loading…
+        </iframe>
     </div>
     <form id="reservationForm">
       <label for="date">Date:</label>

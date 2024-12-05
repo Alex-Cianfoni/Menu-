@@ -68,12 +68,50 @@
   display: block;
 }
 
+/* All Pages background image */
+html {
+  background-image: url("images/KK_Background.jpg");
+}
+
+
+/*Font Changes across the site*/
+p {
+  font-family: "Marker Felt", "Comic Sans MS", fantasy;
+}
+
+h1 {
+  font-family: "Marker Felt", "Comic Sans MS", fantasy;
+}
+
+h2{
+  font-family: "Marker Felt", "Comic Sans MS", fantasy;
+}
+
+/* images */
+#RestaurantImage {
+  max-width: 800px;
+}
+
+#MenuImage {
+  max-width: 800px;
+}
+
+/* Home page specific */
+#Main-HomePageHeader {
+  text-align: center;
+}
+
+/*Contact Page*/
+.ContactPage {
+  text-align: center;
+}
+
 /* General Body Styling */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
   color: #333;
 }
 
@@ -82,7 +120,7 @@ body {
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: lightblue;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
